@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import '../assets/styles/Home.css'
 import '../assets/styles/Button.css'
+import imgHome from '../assets/images/ahorcadoHome.png'
 // Importe de los estilos .css
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     // Sección "Inicio"
     <div className="container-inicio">
       <h1>AHORCADO</h1>
-      <img src="https://cdn-icons-png.flaticon.com/512/6688/6688560.png" alt="manos"/>
+      <img src={imgHome} alt="manos"/>
       <div className="botones-home">
         <Link to={'/Game'} className="btn"> Jugar </Link> 
         <Link to={'/Team'} className="btn"> Desarrolladores </Link>
