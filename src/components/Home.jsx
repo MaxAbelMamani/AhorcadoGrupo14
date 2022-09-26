@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
+import '../assets/styles/Home.css'
+import '../assets/styles/Button.css'
 // Importe de los estilos .css
 
-function Home() {
+export default function Home() {
   return (
     // Sección "Inicio"
-    <div>
+    <div className="container-inicio">
       <h1>AHORCADO</h1>
-      <img src="#" alt="manos"/>
-      <div>
-        <Link to={'/Game'}> Jugar </Link> 
-        <Link to={'/Team'}> Desarrolladores </Link>
+      <img src="https://cdn-icons-png.flaticon.com/512/6688/6688560.png" alt="manos"/>
+      <div className="botones-home">
+        <Link to={'/Game'} className="btn"> Jugar </Link> 
+        <Link to={'/Team'} className="btn"> Desarrolladores </Link>
       </div>
     </div>
     // Botón 'Jugar' con enlace a la página "Game"
     // Botón 'Desarrolladores' con enlace a la página "Team"
   )
 }
-
-export default Home
