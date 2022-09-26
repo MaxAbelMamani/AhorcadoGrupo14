@@ -6,7 +6,7 @@ function Team() {
       <h1>Equipo de Trabajo</h1>
       <div>
         <div className="NyF">
-          <img src="#"alt="..." />
+          <img src="#" alt="..." />
           <a
             className="perfil-github"
             target="_blank"
@@ -18,7 +18,7 @@ function Team() {
           </a>
         </div>
         <div className="NyF">
-          <img src="#"alt="..." />
+          <img src="#" alt="..." />
           <a
             className="perfil-github"
             target="_blank"
@@ -30,7 +30,7 @@ function Team() {
           </a>
         </div>
         <div className="NyF">
-          <img src="#"alt="..." />
+          <img src="#" alt="..." />
           <a
             className="perfil-github"
             target="_blank"
