@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../assets/styles/Team.css';
 import '../assets/styles/Button.css';
-import images from '../components/ImgTeam.jsx';
 import equipo from './teams.json';
 import Developers from './Developers';
 
