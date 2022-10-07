@@ -17,7 +17,11 @@ import logo from '../assets/images/soga-logo.png'
 import {ColgadoImg} from './ColgadoImg';
 
 //Importando Musica
-import SoundButton from '../assets/sounds/button.wav'
+import SoundOption from '../assets/sounds/click02.wav'
+import SoundLost from '../assets/sounds/gameover02.wav'
+import SoundWin from '../assets/sounds/win01.wav'
+import SoundRestart from '../assets/sounds/restart.wav'
+
 function Game() {
 
   //Ocultar Opciones
@@ -32,6 +36,7 @@ function Game() {
   // Determinar si la persona perdió
   useEffect(() => {
     if(intentos === 8){
+      lost.play();
       setPerder(true);
       setVerOpcion('ocultar');
     }
@@ -41,13 +46,27 @@ function Game() {
   useEffect(() => {
     const actualPalabraOculta = palabraOculta.split(' ').join('');
     if(actualPalabraOculta === palabra){
+      win.play();
       setGanar(true);
       setVerOpcion('ocultar');
     }
   }, [palabraOculta])
 
-  var btn = new Howl({
-    src: [SoundButton]
+  //Variables de sonido
+  let btn = new Howl({
+    src: [SoundOption]
+  });
+
+  let lost = new Howl({
+    src: [SoundLost]
+  });
+
+  let win = new Howl({
+    src: [SoundWin]
+  });
+
+  let restart = new Howl({
+    src: [SoundRestart]
   });
 
   Howler.volume(0.5);
@@ -75,7 +94,7 @@ function Game() {
   }
 
   const nuevoJuego = () => {
-
+    restart.play();
     const nuevaPalabra = getPalabraRandom();
     
     setIntentos(0);

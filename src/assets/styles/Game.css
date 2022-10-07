@@ -1,18 +1,17 @@
 .game{
     margin: auto;
+    width: 70vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0e0e0e;
-    background-image: url(../images/ahorcadoHome.png);
-    background-position: center left;
-    background-size: 300px;
-    background-repeat:repeat-x;
-    background-repeat: space;
     color: #f0f8ff;
     font-family: sans-serif;
+}
+
+.game h3{
+    margin-top: 12px;
 }
 
 .logo{
@@ -25,7 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .btn-option{
@@ -51,6 +50,10 @@
 
 .respuestas{
     display: flex;
+}
+
+.respuestas h2{
+    margin: 12px 0;
 }
 
 .botones-page-game{
