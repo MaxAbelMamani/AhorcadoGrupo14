@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "nombre":"Mamani Maximiliano Abel",
+        "Edad":"20 años",
+        "Frase":"Yeah...",
+        "src":"src/assets/images/MaxiMamani.jpg",
+        "github":"https://github.com/MaxAbelMamani"
+    },
+    {
+        "id":2,
+        "nombre":"Ortega Matias Gabriel",
+        "Edad":"23 años",
+        "Frase":"Si",
+        "src":"src/assets/images/Matias_Ortega.jpg",
+        "github":"https://github.com/MatiasGrrrOrtega"
+    },
+    {
+        "id":3,        
+        "nombre":"Bustamante Maximiliano L.",
+        "Edad":"23 años",
+        "Frase":"No",
+        "src":"src/assets/images/MaxiBustamante.jpg",
+        "github":"https://github.com/MaxLeonel"
+    },
+    {
+        "id":4,
+        "nombre":"Morales Agustina M. A.",
+        "Edad":"23 años",
+        "Frase":"Sip",
+        "src":"src/assets/images/AgusMorales.jpg",
+        "github":"https://github.com/Agmor03"
+    },
+    {
+        "id":5,
+        "nombre":"Cruz Aruzamen Matias A.",
+        "Edad":"20 años",
+        "Frase":"Nop",
+        "src":"src/assets/images/ImagenEjemplo.jpg",
+        "github":"https://github.com/MatiasCA11"
+    }
+]
