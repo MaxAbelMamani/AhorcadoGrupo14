@@ -18,7 +18,7 @@ function Team() {
           })
         }
       </div>
-      <div className="boton-team">
+      <div className="container-team-boton">
         <Link to={"/"} className="btn">Inicio</Link>
       </div>
     </div>

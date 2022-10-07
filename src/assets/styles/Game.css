@@ -1,0 +1,96 @@
+.game{
+    margin: auto;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f0f8ff;
+    font-family: sans-serif;
+}
+
+.game h3{
+    margin-top: 12px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.btn-option{
+    margin: 12px 6px;
+    padding: 8px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #2b2b2b;
+    color: #f0f8ff;
+    transition: .7s background-color ease;
+    cursor: pointer;
+}
+
+.btn-option:hover{
+    background-color: #ffffff;
+    color: #2b2b2b;
+}
+
+.colgado-image{
+    width: 300px;
+    height: 300px;
+}
+
+.respuestas{
+    display: flex;
+}
+
+.respuestas h2{
+    margin: 12px 0;
+}
+
+.botones-page-game{
+    margin: 12px 0;
+}
+
+.ocultar{
+    display: none;
+}
+
+.btn-inicio{
+    background-color: #000000;
+    color: #f0f8ff;
+    padding: 12px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin: 0 12px;
+    border: none;
+    transition: .7s background-color ease;
+}
+
+.btn-inicio:hover{
+    background-color: #ffffff;
+    color: #2b2b2b;
+}
+
+.btn-restart{
+    background-color: #ff0000;
+    color: #f0f8ff;
+    padding: 12px;
+    font-size: 1.4rem;
+    border: none;
+    margin: 0 12px;
+    transition: .7s background-color ease;
+    cursor: pointer;
+}
+
+.btn-restart:hover{
+    background-color: #b80000;
+}
