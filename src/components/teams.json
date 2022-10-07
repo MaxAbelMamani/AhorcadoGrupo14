@@ -34,9 +34,9 @@
     {
         "id":5,
         "nombre":"Cruz Aruzamen Matias A.",
-        "Edad":"20 años",
+        "Edad":"19 años",
         "Frase":"Nop",
-        "src":"src/assets/images/ImagenEjemplo.jpg",
+        "src":"src/assets/images/MatiasAruzamen.jpg",
         "github":"https://github.com/MatiasCA11"
     }
 ]

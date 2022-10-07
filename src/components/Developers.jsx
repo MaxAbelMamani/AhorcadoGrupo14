@@ -3,7 +3,7 @@ import React from 'react'
 function Developer({nombre,Edad,Frase,Imagen,github}){
     return(
         <div className="developer">
-            <img className='developer-image' src={Imagen} alt="developer-image"/>
+            <img className='developer-image' src={Imagen} alt="developer-image"/> 
             <div className='developer-decription'>
                 <a className="developer-perfil-github" 
                 target="_blank"

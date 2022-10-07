@@ -7,6 +7,7 @@ import image5 from '../assets/images/horca/5.png';
 import image6 from '../assets/images/horca/6.png';
 import image7 from '../assets/images/horca/7.png';
 import image8 from '../assets/images/horca/8.png';
+//importe de imagenes para representar el ahorcadito
 
 const images= [
     image0,
@@ -19,19 +20,21 @@ const images= [
     image7,
     image8
 ]
+//se define a las imagenes como variables constantes
 
 export function ColgadoImg({imageNumber}) {
 
     if(imageNumber >= 8){
         imageNumber = 8;
     }
+    //se "limita" el valor numerico de la imagen hasta 8
 
     return (
         <img
-            className='colgado-image' 
-            src={images[imageNumber]} 
-            alt="Imagen del ahorcado"
-            width="450px"
+            className='colgado-image' // definicion de class-name
+            src={images[imageNumber]} // definicion de imagen
+            alt="Imagen del ahorcado" // en caso den o mostrarse la imagen, se mostrará la leyenda "Imagen del ahorcado"
+            width="450px" //ancho de 450px
         />
     )
 }

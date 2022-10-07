@@ -145,8 +145,8 @@ function Game() {
             }
         </div>
         <div className='botones-page-game'>
-          <button className='btn-restart' onClick={nuevoJuego}>ReIniciar</button>
-          <Link to={"/"} className="btn-inicio">Vover a Inicio</Link> 
+          <button className='btn-restart' onClick={nuevoJuego}>Reiniciar</button>
+          <Link to={"/"} className="btn-inicio">Volver a Inicio</Link> 
         </div>
     </div>
   )
