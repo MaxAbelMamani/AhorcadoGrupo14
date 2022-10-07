@@ -6,16 +6,16 @@
 }
 
 body{
-    font-family: 'Roboto Slab', serif;
-    background-color: #0e0e0e;
-    background-image: url(./assets/images/ahorcadoHome.png);
-    background-position: center left;
-    background-size: 400px;
-    background-repeat:repeat-x;
-    background-repeat: space;
+    font-family: 'Roboto Slab', serif; /*Uso de fuente "Roboto Slab"*/
+    background-color: #0e0e0e; /*Color negro de fondo*/
+    background-image: url(./assets/images/ahorcadoHome.png); /*Definicion de imagen del inicio*/
+    background-position: center left; /*Posicion de fondo centro izquierda*/
+    background-size: 400px; /*Tamaño de fondo de 400px*/
+    background-repeat:repeat-x; /*Repeticion de fondo en eje X*/
+    background-repeat: space; /*Espacio presente entre repeticion de fondo*/
 }
 
 h1{
-    margin: 13px 0;
+    margin: 13px 0; /*Margen de 13px X 0*/
     text-align: center; /*Texto centrado*/
 }

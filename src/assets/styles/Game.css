@@ -1,96 +1,97 @@
 .game{
     margin: auto;
-    width: 70vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #f0f8ff;
-    font-family: sans-serif;
+    width: 70vw; /*70% de ancho de pantalla ocupado*/
+    height: 100vh; /*100% de alto de pantalla ocupado*/
+    display: flex; /*adaptable a otros tamaños*/
+    flex-direction: column; /*organizacion de items en forma de columna*/
+    justify-content: center; /*contenido justificado centrado*/
+    align-items: center; /*items centrados*/
+    color: #f0f8ff; /*color blanco*/
+    font-family: sans-serif; /*uso de fuente "sans-serif"*/
 }
 
 .game h3{
-    margin-top: 12px;
+    margin-top: 12px; /*margen superior de 12px*/
 }
 
 .logo{
-    width: 50px;
+    width: 50px; 
     height: 50px;
-    vertical-align: middle;
+    /*tamaño de logo de 50px X 50px*/
+    vertical-align: middle; /*alineado verticalmente en el medio*/
 }
 
 .opciones{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px 20px;
+    display: flex; /*adaptable a otros tamaños*/
+    flex-wrap: wrap; /*items organizados en varias lineas*/
+    justify-content: center; /*contenido justificado centrado*/
+    margin: 20px 20px; /*margen de 20px X 20px*/
 }
 
 .btn-option{
-    margin: 12px 6px;
-    padding: 8px;
-    font-size: 1.2rem;
-    border: none;
-    background-color: #2b2b2b;
-    color: #f0f8ff;
-    transition: .7s background-color ease;
-    cursor: pointer;
+    margin: 12px 6px; /*margen de 12px X 6px*/
+    padding: 8px; /*relleno de 8px*/
+    font-size: 1.2rem; /*tamaño de fente del boton de 19,2 px*/
+    border: none; /*boton sin borde*/
+    background-color: #2b2b2b; /*color negro de fondo del boton*/
+    color: #f0f8ff; /*color blanco en texto del boton*/
+    transition: .7s background-color ease; /*transicion de 0.7s para cambios de color en el boton*/
+    cursor: pointer; /*al interactuar con el elemento se mostrara el puntero*/
 }
 
 .btn-option:hover{
-    background-color: #ffffff;
-    color: #2b2b2b;
+    background-color: #ffffff; /*cambio de color del fondo del boton a blanco*/
+    color: #2b2b2b; /*cambio de color del texto del boton a negro*/
 }
 
 .colgado-image{
-    width: 300px;
-    height: 300px;
+    width: 300px; /*ancho de 300px en imagen del ahorcadito*/
+    height: 300px; /*alto de 300px en imagen del ahorcadito*/
 }
 
 .respuestas{
-    display: flex;
+    display: flex; /*adaptable a otros tamaños*/
 }
 
 .respuestas h2{
-    margin: 12px 0;
+    margin: 12px 0; /*margen de 12px X 0*/
 }
 
 .botones-page-game{
-    margin: 12px 0;
+    margin: 12px 0; /*margen de 12px X 0*/
 }
 
 .ocultar{
-    display: none;
+    display: none; /*al recibir clic, el item se ocultará*/
 }
 
 .btn-inicio{
-    background-color: #000000;
-    color: #f0f8ff;
-    padding: 12px;
-    font-size: 1.4rem;
-    text-decoration: none;
-    margin: 0 12px;
-    border: none;
-    transition: .7s background-color ease;
+    background-color: #000000; /*color negro en fondo del boton*/
+    color: #f0f8ff; /*color blanco en letra del boton*/
+    padding: 12px; /*relleno de 12px*/
+    font-size: 1.4rem; /*tamaño de letra de 22.4px*/
+    text-decoration: none; /*decoracion nula en el texto*/
+    margin: 0 12px; /*margen de 0 X 12px*/
+    border: none; /*boton sin bordes*/
+    transition: .7s background-color ease; /*transicion de 0.7s para cambios de color en el boton*/
 }
 
 .btn-inicio:hover{
-    background-color: #ffffff;
-    color: #2b2b2b;
+    background-color: #ffffff; /*cambio de color del fondo del boton a blanco*/
+    color: #2b2b2b; /*cambio de color del texto del boton a negro*/
 }
 
 .btn-restart{
-    background-color: #ff0000;
-    color: #f0f8ff;
-    padding: 12px;
-    font-size: 1.4rem;
-    border: none;
-    margin: 0 12px;
-    transition: .7s background-color ease;
-    cursor: pointer;
+    background-color: #ff0000; /*color rojo en fondo del boton*/
+    color: #f0f8ff; /*color blanco en letra del boton*/
+    padding: 12px; /*relleno de 12px*/
+    font-size: 1.4rem; /*tamaño de letra de 22.4px*/
+    border: none; /*boton sin bordes*/
+    margin: 0 12px; /*margen de 0 X 12px*/
+    transition: .7s background-color ease; /*transicion de 0.7s para cambios de color en el boton*/
+    cursor: pointer; /*al interactuar con el elemento se mostrara el puntero*/
 }
 
 .btn-restart:hover{
-    background-color: #b80000;
+    background-color: #b80000; /*cambio de color del fondo del boton a color "bordo"*/
 }

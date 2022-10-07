@@ -1,12 +1,12 @@
 .container-inicio{
-    display: flex;
+    display: flex; /*adaptable a otros tamaños*/
     flex-direction: column; /*Direccionamiento en columna*/
-    align-items: center;
-    justify-content: center;
+    align-items: center; /*items con alineacion centrada*/
+    justify-content: center; /*contenido justificado centrado*/
     margin: auto;
     width: 70vw; /*70% de ancho de pantalla ocupado*/
-    height: 100vh;
-    color: #f0f8ff;
+    height: 100vh; /*100% de alto de pantalla ocupado*/
+    color: #f0f8ff; /*color blanco*/
 }
 /*Contenedor centrado con margen automatico*/
 
@@ -17,25 +17,24 @@
 }
 
 .container-inicio-logo{
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
+    width: 50px;  /*ancho de 50px*/
+    height: 50px;  /*alto de 50px*/
+    vertical-align: middle; /*alineado verticalmente en el medio*/
 }
 
 .container-inicio-botones{
-    margin: 14px;
-    display: flex;
-    flex-direction: column; /*Se coloca a los botones en colunma*/
+    margin: 14px; /*margen de 14px*/
+    display: flex; /*adaptable a otros tamaños*/
+    flex-direction: column; /*Se coloca a los botones en columna*/
     align-items: center;
     justify-content: center;
-    /*Botones centrados*/
+    /*Botones con items y contenido justifiado centrados*/
 }
 
 .container-inicio-botones a{
-    text-decoration: none;
+    text-decoration: none; /*texto sin decoracion*/
     color: whitesmoke; /*Botones de color blanco*/
     font-size: 25px; /*Tamaño de letra de 25px en botones*/
-    margin: 10px 20px;
-    /*margen de 20% por izquierda y derecha*/
+    margin: 10px 20px; /*margen de 10px X 20px*/
     padding: 10px; /*Relleno de 10px en letra de los botones*/
 }
