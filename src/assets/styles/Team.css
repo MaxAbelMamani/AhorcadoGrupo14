@@ -18,7 +18,7 @@
 .developer{
     background-color: #070707; /*color negro de fondo*/
     width: 280px; /*ancho de 280px*/
-    height: 400px; /*altura de 400px*/
+    height: 450px; /*altura de 400px*/
     text-align: center; /*alineacion centrada en texto*/
     margin: 20px; /*margen de 20px*/
     transition: .7s box-shadow ease-in-out; /*transicion de 0.7s para cambios*/

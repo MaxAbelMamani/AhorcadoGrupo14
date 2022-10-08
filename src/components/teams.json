@@ -3,7 +3,7 @@
         "id":1,
         "nombre":"Mamani Maximiliano Abel",
         "Edad":"20 años",
-        "Frase":"Yeah...",
+        "Frase":"Escuchar musica, caminar en lugares verdes y jugar jueguitos",
         "src":"src/assets/images/MaxiMamani.jpg",
         "github":"https://github.com/MaxAbelMamani"
     },
@@ -11,7 +11,7 @@
         "id":2,
         "nombre":"Ortega Matias Gabriel",
         "Edad":"23 años",
-        "Frase":"Si",
+        "Frase":"Me gusta cocinar, hacer ejercicio y estudiar desarrollo Front-end",
         "src":"src/assets/images/Matias_Ortega.jpg",
         "github":"https://github.com/MatiasGrrrOrtega"
     },
@@ -19,7 +19,7 @@
         "id":3,        
         "nombre":"Bustamante Maximiliano L.",
         "Edad":"23 años",
-        "Frase":"No",
+        "Frase":"Me interesa el desarrollo web, programar juegos y editar videos",
         "src":"src/assets/images/MaxiBustamante.jpg",
         "github":"https://github.com/MaxLeonel"
     },
@@ -27,7 +27,7 @@
         "id":4,
         "nombre":"Morales Agustina M. A.",
         "Edad":"23 años",
-        "Frase":"Sip",
+        "Frase":"Tocar la guitarra, escuchar musica, sacarle fotos al cielo y perder el tiempo en internet",
         "src":"src/assets/images/AgusMorales.jpg",
         "github":"https://github.com/Agmor03"
     },
@@ -35,7 +35,7 @@
         "id":5,
         "nombre":"Cruz Aruzamen Matias A.",
         "Edad":"19 años",
-        "Frase":"Nop",
+        "Frase":"Me gustan los videojuegos, las peliculas, comics, el wrestling y editar imagenes y videos",
         "src":"src/assets/images/MatiasAruzamen.jpg",
         "github":"https://github.com/MatiasCA11"
     }
