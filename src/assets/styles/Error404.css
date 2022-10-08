@@ -1,0 +1,48 @@
+.container-error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90vw;
+    height: 100vh;
+    color: #f0f8ff;
+}
+
+.container-error-message{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: auto;
+    width: 70vw; 
+    height: 70vh;
+}
+
+.container-error-text{
+    font-size: 30px;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    margin-right: 8vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-error-imagen{
+    margin-top: 10vh;
+    text-align: center;
+    width: 180px;
+    height: 400px;
+}
+
+
+.container-error-boton a{
+    margin: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 12px;
+}
